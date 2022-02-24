@@ -1,0 +1,25 @@
+
+[package]
+name = "safecoin-bpf-helloworld"
+version = "0.0.1"
+description = "Example template program written in Rust"
+authors = ["Safecoin Maintainers <maintainers@safecoin.org>"]
+license = "Apache-2.0"
+homepage = "https://safecoin.org/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+solana-program = "~1.8.14"
+
+[dev-dependencies]
+safecoin-program-test = "~1.8.14"
+safecoin-sdk = "~1.8.14"
+
+[lib]
+name = "helloworld"
+crate-type = ["cdylib", "lib"]
