@@ -14,11 +14,11 @@ no-entrypoint = []
 [dependencies]
 borsh = "0.9.3"
 borsh-derive = "0.9.1"
-solana-program = "~1.8.14"
+safecoin-program = "~1.8.12"
 
 [dev-dependencies]
-safecoin-program-test = "~1.8.14"
-safecoin-sdk = "~1.8.14"
+safecoin-program-test = "~1.8.12"
+safecoin-sdk = "~1.8.12"
 
 [lib]
 name = "helloworld"
